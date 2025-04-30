@@ -9,9 +9,9 @@ import subprocess
 import shutil
 
 # Bot configuration
-API_ID = "27394279"
-API_HASH = "90a9aa4c31afa3750da5fd686c410851"
-BOT_TOKEN = ""
+API_ID = os.environ.get("API_ID","27394279")
+API_HASH = os.environ.get("API_HASH", "90a9aa4c31afa3750da5fd686c410851")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 DOWNLOAD_DIR = "./downloads"
 OUTPUT_DIR = "./outputs"
 
