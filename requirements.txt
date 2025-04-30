@@ -3,3 +3,8 @@ tgcrypto
 pymediainfo 
 telegraph
 ffmpeg
+Flask
+gunicorn
+Jinja2
+werkzeug
+itsdangerous
